@@ -5,7 +5,7 @@
 		error_reporting(E_ALL);		
 
 		require "./vendor/autoload.php";
-		require "./config/config.php";
+		require "./config/Config.php";
 		
 
 		
