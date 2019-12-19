@@ -12,8 +12,8 @@
 		public function index(){
             
 			 
-			$getCategorias = new app\site\models\Categoria();
-			$this->dados['listaCategorias'] = $getCategorias->listarRD();
+		//	$getCategorias = new app\site\models\Categoria();
+			//$this->dados['listaCategorias'] = $getCategorias->listarRD();
             
           
 
