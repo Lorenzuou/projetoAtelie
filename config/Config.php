@@ -3,8 +3,8 @@ session_start(); //inicializando a sessão
 ob_start(); //limpa o buffer de redirecionamento
 
 //url padrão do site 
-define('URL', 'http://127.0.0.1/projetoAtelie/');
-define('URLADM', 'http://127.0.0.1/projetoAtelie/adm/');
+define('URL', 'http://35.199.109.172/projetoAtelie/');
+define('URLADM', 'http://35.199.109.172/projetoAtelie/adm/');
 
 //controller e métodos padrão
 define('CONTROLLER', 'Home');
