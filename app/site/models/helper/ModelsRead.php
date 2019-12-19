@@ -6,7 +6,7 @@ if (!defined('URL')){
 	exit();		
 }
 
-class ModelsRead extends modelsConn {
+class ModelsRead extends ModelsConn {
 	
 	private $select;
 	private $values;
