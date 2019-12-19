@@ -11,8 +11,7 @@
 		private $class;
 		
 		public function __construct(){
-			echo"ola"; 
-			exit; 
+			
 			if(!empty(filter_input(INPUT_GET, 'url', FILTER_DEFAULT))){				
 				$this->url = filter_input(INPUT_GET, 'url', FILTER_DEFAULT);				
 				$this->clearUrl(); //limpa a url
@@ -40,9 +39,9 @@
 				$this->urlParametro = null;
 
 			}
-			echo "Controller: " .$this->urlController."<br/>Método: " .$this->urlMetodo
+			/*echo "Controller: " .$this->urlController."<br/>Método: " .$this->urlMetodo
 				."<br/>Parâmetro: " .$this->urlParametro;
-				exit;
+				exit;*/
 		}
 		
 		public function carregar(){
