@@ -1,5 +1,5 @@
 <?php
-	namespace site\controllers;
+	//namespace site\controllers;
 	
 	if(!defined('URL')){
 		header("location: /");
