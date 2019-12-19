@@ -14,6 +14,6 @@ define('METHOD', 'index');
 define('HOST', 'localhost');
 define('USER', 'root');
 define('PASS', 'pacote');
-define('DBNAME', 'atelieVirtual');
+define('DBNAME', 'atelievirtual');
 define('ERROR404', 'Error404'); 
 define('ERROR4044', 'home'); 
