@@ -12,7 +12,7 @@
 		public function index(){
             
 			 
-			$getCategorias = new \..\Models\Categoria();
+			$getCategorias = new Site\Models\Categoria();
 			$this->dados['listaCategorias'] = $getCategorias->listarRD();
             
           
