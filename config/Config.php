@@ -11,7 +11,7 @@ define('CONTROLLER', 'Home');
 define('METHOD', 'index');
 
 //dados de acesso ao BD
-define('HOST', '35.199.109.172');
+define('HOST', 'localhost');
 define('USER', 'root');
 define('PASS', 'pacote');
 define('DBNAME', 'atelieVirtual');
