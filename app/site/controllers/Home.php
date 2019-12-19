@@ -11,22 +11,22 @@
 		
 		public function index(){
             
-			 
-			$getCategorias = new Site\Models\Categoria();
-			$this->dados['listaCategorias'] = $getCategorias->listarRD();
-            
-          
+
+			    $getCategorias = new \Site\Models\Categoria();
+			    $this->dados['listaCategorias'] = $getCategorias->listarRD();
+
+
 
                       
-             
-            $listarItem = new \Site\models\Home();
-            $this->dados['listaItem'] = $listarItem->listar();
-            
-            $getCategorias = new \Site\Models\Categoria();
-			$this->dados['categoriasItens'] = $getCategorias-> getCategoriasItem($this->dados['listaItem']);
-            
-            $carregarView = new \Config\ConfigView("home/index", $this->dados);           
-            $carregarView->renderizarHome();       
+
+			    $listarItem = new \Site\models\Home();
+			    $this->dados['listaItem'] = $listarItem->listar();
+
+			    $getCategorias = new \Site\Models\Categoria();
+			    $this->dados['categoriasItens'] = $getCategorias-> getCategoriasItem($this->dados['listaItem']);
+
+			    $carregarView = new \Config\ConfigView("home/index", $this->dados);           
+			    $carregarView->renderizarHome();       
 
          
                 
@@ -36,14 +36,14 @@
         
         public function vermais(){ 
           
-            $getCategorias = new \Site\Models\Categoria();
+            	$getCategorias = new \Site\Models\Categoria();
 			$this->dados['listaCategorias'] = $getCategorias->listar();
 
             
-            $listarItem = new \Site\Models\Home();
+           	 $listarItem = new \Site\Models\Home();
 			     $this->dados['listaItem'] = $listarItem->vermais();
             
-             $getCategorias = new \Site\Models\Categoria();
+             	$getCategorias = new \Site\Models\Categoria();
 			$this->dados['categoriasItens'] = $getCategorias-> getCategoriasItem($this->dados['listaItem']);
             
                 $carregarView = new \Config\ConfigView("home/vermais", $this->dados);
