@@ -1,9 +1,7 @@
 <?php
 session_start(); //inicializando a sessão
 ob_start(); //limpa o buffer de redirecionamento
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 //url padrão do site 
 define('URL', 'http://35.199.109.172/projetoAtelie/');
 define('URLADM', 'http://35.199.109.172/projetoAtelie/adm/');
