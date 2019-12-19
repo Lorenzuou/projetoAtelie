@@ -19,7 +19,7 @@
 
                       
              
-            $listarItem = new \Site\Models\Home();
+            $listarItem = new \site\models\Home();
             $this->dados['listaItem'] = $listarItem->listar();
             
             $getCategorias = new \Site\Models\Categoria();
