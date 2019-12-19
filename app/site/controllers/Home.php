@@ -12,14 +12,14 @@
 		public function index(){
             
 			 
-		//	$getCategorias = new app\site\models\Categoria();
-			//$this->dados['listaCategorias'] = $getCategorias->listarRD();
+			$getCategorias = new App\Site\Models\Categoria();
+			$this->dados['listaCategorias'] = $getCategorias->listarRD();
             
           
 
                       
              
-            $listarItem = new \site\models\Home();
+            $listarItem = new \Site\models\Home();
             $this->dados['listaItem'] = $listarItem->listar();
             
             $getCategorias = new \Site\Models\Categoria();
