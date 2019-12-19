@@ -11,6 +11,8 @@
 		private $class;
 		
 		public function __construct(){
+			echo"ola"; 
+			exit; 
 			if(!empty(filter_input(INPUT_GET, 'url', FILTER_DEFAULT))){				
 				$this->url = filter_input(INPUT_GET, 'url', FILTER_DEFAULT);				
 				$this->clearUrl(); //limpa a url
