@@ -13,7 +13,7 @@ define('METHOD', 'index');
 //dados de acesso ao BD
 define('HOST', 'localhost');
 define('USER', 'root');
-define('PASS', '');
+define('PASS', 'pacote');
 define('DBNAME', 'atelieVirtual');
 define('ERROR404', 'Error404'); 
 define('ERROR4044', 'home'); 
