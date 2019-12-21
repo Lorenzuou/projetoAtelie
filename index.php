@@ -12,5 +12,7 @@
 
 		use Config\ConfigController as Home;
 		$url = new Home();
+		var_dump($url); 
+		exit; 
 		$url->carregar();
 	?>
