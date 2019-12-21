@@ -14,8 +14,11 @@
 			 
 			
 			if(!empty(filter_input(INPUT_GET, 'url', FILTER_DEFAULT))){				
-				$this->url = filter_input(INPUT_GET, 'url', FILTER_DEFAULT);				
+				$this->url = filter_input(INPUT_GET, 'url', FILTER_DEFAULT);	
+				var_dump($url); 
 				$this->clearUrl(); //limpa a url
+				var_dump($url);
+				exit; 
 				//separa os valores em array
 				$this->urlConjunto = explode("/", $this->url);
 				
