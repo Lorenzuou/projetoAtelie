@@ -40,9 +40,9 @@
 				$this->urlParametro = null;
 
 			}
-			echo "Controller: " .$this->urlController."<br/>Método: " .$this->urlMetodo
+			/*echo "Controller: " .$this->urlController."<br/>Método: " .$this->urlMetodo
 				."<br/>Parâmetro: " .$this->urlParametro;
-				exit;
+				exit;*/ 
 		}
 		
 		public function carregar(){
